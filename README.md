@@ -1,11 +1,10 @@
-
-# Precomputation Lab
+# The Syntax Collective
 
 **A collaborative competitive programming project built by student programmers from PSHS-DRC.**
 
-Precomputation Lab is a shared space for exploring competitive programming, developing problem-solving skills, and building a collection of reusable programming resources.
+The Syntax Collective is a shared space for a group of friends to explore competitive programming, develop problem-solving skills, and build a collection of reusable programming resources.
 
-We aim to create a collaborative environment where student programmers can contribute solutions, implement algorithms, study data structures, and learn from one another.
+We aim to create a collaborative environment where we can contribute solutions, implement algorithms, study data structures, and learn from one another.
 
 ## Our Goals
 
@@ -17,7 +16,7 @@ We aim to create a collaborative environment where student programmers can contr
 ## Repository Structure
 
 ```text
-precomputation-lab-comprog/
+the-syntax-collective/
 │
 ├── solutions/
 │   ├── codeforces/
@@ -45,20 +44,20 @@ Additional directories may be introduced as the project grows.
 To obtain a local copy of the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/precomputation-lab-comprog.git
+git clone https://github.com
 ```
 
 Navigate into the project directory:
 
 ```bash
-cd precomputation-lab-comprog
+cd the-syntax-collective
 ```
 
 Replace `YOUR-USERNAME` with the repository owner's GitHub username.
 
 ## Areas of Contribution
 
-Precomputation Lab welcomes contributions involving:
+The Syntax Collective welcomes contributions involving:
 
 | Area | Description |
 |---|---|
@@ -92,7 +91,7 @@ We encourage:
 
 ## Disclaimer
 
-Precomputation Lab is an independent, student-led project.
+The Syntax Collective is an independent, student-led project.
 
 Although its contributors are students of the Philippine Science High School - Davao Region Campus (PSHS-DRC), this repository is not an official school organization, team, or institutional project. It does not claim to represent the entire PSHS community.
 
