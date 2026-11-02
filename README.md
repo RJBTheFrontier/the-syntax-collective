@@ -44,7 +44,7 @@ Additional directories may be introduced as the project grows.
 To obtain a local copy of the repository:
 
 ```bash
-git clone https://github.com
+git clone https://github.com/RJBTheFrontier/the-syntax-collective
 ```
 
 Navigate into the project directory:
@@ -52,8 +52,6 @@ Navigate into the project directory:
 ```bash
 cd the-syntax-collective
 ```
-
-Replace `YOUR-USERNAME` with the repository owner's GitHub username.
 
 ## Areas of Contribution
 
