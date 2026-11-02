@@ -3,11 +3,11 @@
 
 **A collaborative toolkit for competitive programming, algorithmic problem-solving, and student developers.**
 
-Student CodeKit is a student-led, collaborative repository for sharing programming solutions, reusable code implementations, algorithms, data structures, and learning resources.
+Student Codekit is a student-led, collaborative repository for sharing programming solutions, reusable code implementations, algorithms, data structures, and learning resources.
 
 Built by a group of student programmers from the Philippine Science High School – Davao Region Campus, the project aims to encourage collaborative learning, strengthen problem-solving skills, and make useful programming resources accessible to fellow learners.
 
-> **Independent student project:** Student CodeKit is independently maintained by its contributors. It is not an official PSHS organization, team, or institutional project, and does not represent the entire Pisay community.
+> **Independent student project:** Student Codekit is independently maintained by its contributors. It is not an official PSHS organization, team, or institutional project, and does not represent the entire Pisay community.
 
 ---
 
@@ -113,7 +113,7 @@ You are welcome to study and adapt the implementations in accordance with the re
 
 ## Contribution Guidelines
 
-Student CodeKit welcomes contributions from its members and invited collaborators.
+Student Codekit welcomes contributions from its members and invited collaborators.
 
 Contributions may include:
 
