@@ -1,9 +1,9 @@
 
-# Contributing to Student CodeKit
+# Contributing to Student Codekit
 
-Thank you for your interest in contributing to Student CodeKit!
+Thank you for your interest in contributing to Student Codekit!
 
-Student CodeKit is a collaborative, student-led project focused on competitive programming, algorithmic problem-solving, and reusable programming resources.
+Student Codekit is a collaborative, student-led project focused on competitive programming, algorithmic problem-solving, and reusable programming resources.
 
 Whether you're submitting your first accepted solution, documenting an algorithm, improving an existing implementation, or contributing learning materials, your participation helps the project grow.
 
@@ -354,7 +354,7 @@ A review is an opportunity to improve the code and deepen everyone's understandi
 
 ## Attribution and Academic Integrity
 
-Student CodeKit is a learning-oriented repository.
+Student Codekit is a learning-oriented repository.
 
 Contributors must:
 
