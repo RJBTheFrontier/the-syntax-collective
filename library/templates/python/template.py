@@ -2,7 +2,7 @@ import sys
 
 
 def solve():
-    input = sys.stdin.readline
+    input = sys.stdin.readline  # noqa: F841
 
     # Write your solution here.
 
