@@ -1,24 +1,55 @@
-# Contributing to The Syntax Collective
 
-Welcome to the repo! 
+<div align="center">
 
-This space is literally just for us to hang out, practice competitive programming, and build a shared vault of solutions and code templates so we can all get better together. 
+<h1>CONTRIBUTING.md</h1>
 
-You don't need to be an absolute genius to push code here. Making mistakes, getting TLEs, and asking each other for help is exactly why we set this up. Here is how we keep the repo from turning into absolute chaos.
+<p><strong>So, you want to add something to the collective?</strong></p>
 
-## 1. Before You Push Anything
+<p><em>Pull up a chair. There's room for one more.</em></p>
 
-Just a few quick sanity checks before you make a commit:
-- **Check if it's already there:** Don't double-post a solution someone else in the group already pushed unless your approach is completely different (e.g., swapping a brute-force approach for a dynamic programming one).
-- **Test your code:** Make sure it actually compiles, runs, and passes the sample test cases before pushing it to the shared space. 
-- **Give credit:** If you copy-pasted a genius template or logic from a Codeforces blog or an editorial, just drop a quick link to it so the rest of us can read it and learn too.
+</div>
 
-## 2. What We're Collecting
+---
 
-### Problem Solutions
-Drop your accepted solutions from Codeforces, AtCoder, or anywhere else we're grinding. Keep things neat by giving each problem its own folder.
+## <code>00</code> — welcome to the workspace! 👋
 
-Example:
+Hey, welcome in!
+
+The Syntax Collective is our little corner of the internet where a group of friends hang out, practice competitive programming, exchange ideas, and build a shared collection of code and discoveries.
+
+You don't need to be an expert to contribute. Seriously.
+
+Making mistakes, getting TLEs, asking questions, and figuring things out together are all part of the process. That's exactly why this project exists.
+
+This guide is just here to keep our shared workspace organized while leaving plenty of room to experiment.
+
+---
+
+## <code>01</code> — before you upload anything 📋
+
+A few quick checks before sending your work into the collective:
+
+- **Check the shelves first.** See if someone has already contributed the same solution or implementation. Different approaches are absolutely welcome, though!
+- **Give your code a test run.** Make sure it compiles or runs correctly and passes the available sample cases.
+- **Credit your sources.** If you learned something from an editorial, tutorial, article, or someone else's implementation, include a link. Sharing where we learned something helps everyone.
+- **Keep it understandable.** Someone else should be able to read your contribution and figure out what it does.
+
+No complicated paperwork. Just a little consideration for everyone sharing the space.
+
+---
+
+## <code>02</code> — what can you contribute? 🗂️
+
+Quite a lot, actually.
+
+### 🔎 Problem solutions
+
+Solved something interesting on Codeforces, AtCoder, or another platform? Add it!
+
+Give every problem its own folder.
+
+**Example structure:**
+
 ```text
 solutions/
 └── codeforces/
@@ -27,102 +58,210 @@ solutions/
         └── README.md
 ```
 
-Inside that folder, dump your code and write a quick, casual `README.md` to explain how you cracked it. It doesn't need to be an essay—just cover the basics:
-- What's the problem name and the link to it?
-- Who wrote the solution?
-- What was the core idea/approach? (e.g., "Two-pointers, greedily picking the smallest element")
-- Time and Space complexity (O(N), O(1), etc.)
+Include a short `README.md` explaining:
 
-### Algorithms & Data Structures
-If you implement a standard algorithm or data structure from scratch, drop it into the `library/` folder so the rest of the squad can reuse it later.
-- **Algos:** Binary search, graph traversals, DP, math utilities, prefix sums, etc.
-- **Data Structures:** Segment trees, Fenwick trees, DSU, heaps, or whatever else we're learning.
-- *Tip: Drop a quick comment at the top explaining how to call it.*
+- **Problem:** Name, platform, and problem link.
+- **Author:** Who wrote the solution.
+- **Approach:** The main idea behind the solution.
+- **Complexity:** Time and space complexity, where applicable.
 
-### Templates
-Got a fast I/O setup, boilerplate setup, or standard debugging macros you swear by? Put it in `library/templates/` so we can all steal it.
+It doesn't need to be an essay. A clear explanation is more useful than a wall of text.
 
-### Learning Resources
-Found an incredible YouTube channel, an easy-to-understand article, or a curated problem list? Throw the link or Markdown file into the `resources/` folder.
+### ⚙️ Algorithms & data structures
 
-## 3. Folder Layout
+Built something from scratch or finally understood an algorithm you've been studying?
 
-Stick to the plan so no one gets lost looking for files:
+Add it to the appropriate `library/` directory.
+
+Some examples:
+
+- **Algorithms:** Binary search, graph traversal, dynamic programming, prefix sums, and mathematical utilities.
+- **Data structures:** Segment trees, Fenwick trees, disjoint set union, heaps, and more.
+
+Whenever possible, include a short explanation and a comment showing how to use the implementation.
+
+### 🧰 Templates
+
+Have a useful fast I/O setup, debugging helper, or reusable code template?
+
+Drop it into `library/templates/`.
+
+Keep things practical. We want reusable tools, not an endless collection of boilerplate.
+
+### 📚 Learning resources
+
+Found a particularly helpful article, YouTube channel, tutorial, or problem collection?
+
+Share it in `resources/`!
+
+If you can, add a sentence explaining what makes the resource useful.
+
+---
+
+## <code>03</code> — keep the shelves organized 🗃️
+
+Here's the directory layout we're working with:
 
 ```text
-solutions/
-    codeforces/
-    atcoder/
-    other/
-
-library/
-    templates/
-        python/
-        cpp/
-    algorithms/
-    data-structures/
-
-resources/
+the-syntax-collective/
+│
+├── solutions/
+│   ├── codeforces/
+│   ├── atcoder/
+│   └── other/
+│
+├── library/
+│   ├── templates/
+│   │   ├── python/
+│   │   └── cpp/
+│   ├── algorithms/
+│   └── data-structures/
+│
+├── resources/
+│
+├── README.md
+├── CONTRIBUTING.md
+└── LICENSE
 ```
 
-If you think we need a new root folder, just pitch it to the group chat before making it.
+Try to place new files where they naturally belong.
 
-## 4. Code Quirks & Cleanliness
+Have an idea for a new top-level directory? Bring it up with the group before adding it. We're building this together, after all.
 
-We aren't a big tech company, so we don't have a rigid style guide. However, please write code that someone else in the group can actually read without getting a headache.
+---
 
-- **Don't code like a robot:** Use variables that make sense. `nodes_count` is infinitely better than `xyz123`.
-- **Comment the weird parts:** If you wrote a crazy bitwise hack or a highly optimized math trick, leave a one-line comment explaining *why* it works.
-- **Python:** Stick to 4-space indentation and prioritize readability over trying to squeeze the entire solution into a single line of unreadable list comprehension.
-- **C++:** Keep your macros clean, avoid global variable spam where you can, and make sure your templates are easy for the rest of us to plug into our own files.
+## <code>04</code> — code etiquette 💻
 
-## 5. The Git Workflow (How to not break things)
+We're a group of students, not a software corporation. There's no need for an intimidating style guide.
 
-Since we're all working out of the same repo, let's use branches so we don't accidentally override each other's work or cause massive merge conflicts.
+Still, a little consistency makes everyone's life easier.
 
-### Step 1: Snag the latest changes
-Before you start working, make sure your local copy has everyone else's latest code.
+**General**
+- Use descriptive variable and function names.
+- Comment on unusual or complicated logic.
+- Avoid unnecessary complexity.
+- Write code that another person can reasonably understand.
+
+**Python**
+- Use 4-space indentation.
+- Prefer readable code over unnecessarily compressed expressions.
+- Keep reusable implementations separate from problem-specific input/output.
+
+**C++**
+- Keep macros reasonable and understandable.
+- Avoid unnecessary global variables.
+- Include the headers your reusable code actually needs.
+- Use C++17 for our standard implementations unless a contribution specifies otherwise.
+
+The goal isn't to make everyone's code look identical. It's to make it easier for us to learn from one another.
+
+---
+
+## <code>05</code> — the Git workflow 🔧
+
+Since multiple people are working in the same repository, let's use branches and pull requests to keep everything organized.
+
+### 01. Sync your local copy
+
+Start by getting the latest changes from `main`.
+
 ```bash
 git switch main
 git pull origin main
 ```
 
-### Step 2: Make your own playground branch
+### 02. Create your own branch
+
 Give it a short, descriptive name.
+
 ```bash
 git switch -c add-my-codeforces-sol
 ```
 
-### Step 3: Write code & test it
-Do your thing. Add your solutions, tweak templates, or fix typos.
+### 03. Make your contribution
 
-### Step 4: Commit your stuff
-Stage your changes and write a normal commit message. No need to be overly corporate, just say what you did.
+Write your code, test it, update documentation, and make sure everything is where it belongs.
+
+### 04. Commit your changes
+
+Stage your work and write a meaningful commit message.
+
 ```bash
 git add .
-git commit -m "Added solution for CF 266B"
+git commit -m "Add solution for CF 266B"
 ```
-*(Avoid lazy commit messages like "updates" or "fix". Just type 5 words describing the change.)*
 
-### Step 5: Push it up
+Avoid messages like `updates` or `fix`. A few descriptive words go a long way.
+
+### 05. Push your branch
+
 ```bash
 git push -u origin add-my-codeforces-sol
 ```
 
-### Step 6: Open a Pull Request (PR)
-Go to GitHub and open a Pull Request to merge your branch into `main`. Tag someone in the group to take a look, approve it, and merge it in.
+### 06. Open a Pull Request
 
-## 6. Code Reviews are for Learning
+Head over to GitHub and open a Pull Request targeting `main`.
 
-When someone opens a PR, take a look at their code! Don't look at it as a competition or a way to critique someone. 
-- If you see a cleaner way to write a loop, suggest it.
-- If you don't understand how their math works, ask them to explain it.
-- If their code looks clean and elegant, hype them up.
+Give it a descriptive title, explain what you changed, and tag a fellow contributor for review.
 
-## 7. Keep It Honest
+Once everything looks good, the changes can be merged!
 
-We're all here to improve our actual skills. Don't push solutions you don't actually understand just to pad your contribution graph. If you looked up a tutorial or an editorial to get unstuck (which we all do!), make sure you study the logic until you can explain it to the rest of us. 
+---
+
+## <code>06</code> — reviews are for learning, not judging 🤝
+
+Pull Requests aren't competitions.
+
+They're opportunities to learn from one another.
+
+- Found a cleaner way to write something? Suggest it.
+- Don't understand someone's approach? Ask them about it.
+- Spotted a bug? Explain what might be going wrong.
+- Saw a particularly clever implementation? Give it some appreciation!
+
+Be constructive, be respectful, and remember that everyone is still learning.
+
+A good review should leave both people knowing a little more than before.
+
+---
+
+## <code>07</code> — keep it honest 🧠
+
+This one's important.
+
+We're here to improve our actual problem-solving skills, not just make our contribution graphs look impressive.
+
+Don't submit code you don't understand simply to add another commit.
+
+Looked at an editorial? Used a tutorial? Asked someone for help?
+
+That's completely fine! We all learn from other people.
+
+Just make sure you understand the reasoning behind your contribution and acknowledge the sources that helped you.
+
+An accepted solution is nice. Understanding why it works is even better.
+
+---
+
+## <code>08</code> — one last thing ✨
+
+There isn't a minimum skill level for belonging here.
+
+You can contribute a complete algorithm implementation, a tiny typo correction, a useful resource, or a thoughtful code review.
+
+Every bit of effort helps.
+
+This is our shared workspace. Let's keep it welcoming, organized, and full of things worth learning.
+
+<div align="center">
 
 ---
 
 **Learn together. Solve together. Build together.**
+
+`while (learning) { keep_building(); }`
+
+**THE SYNTAX COLLECTIVE · EST. 2026**
+
+</div>
