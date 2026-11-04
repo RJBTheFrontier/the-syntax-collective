@@ -1,0 +1,52 @@
+
+name: "📚 Learning request"
+description: "Suggest something the collective should learn together."
+title: "[LEARNING] "
+labels: ["learning"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        There's always something new to explore.
+
+        What would you like us to learn next?
+
+  - type: input
+    id: topic
+    attributes:
+      label: What topic interests you?
+      placeholder: "e.g. Graph Traversal"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: What area does it belong to?
+      options:
+        - Algorithms
+        - Data structures
+        - Mathematics
+        - Python
+        - C++
+        - Competitive programming techniques
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why should we explore it?
+      description: What makes this topic interesting or useful?
+      placeholder: "I've been curious about..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: resources
+    attributes:
+      label: Any resources to get us started? (optional)
+      placeholder: "Articles, tutorials, videos, problem links..."
+    validations:
+      required: false

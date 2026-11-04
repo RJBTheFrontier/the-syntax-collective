@@ -1,0 +1,52 @@
+
+name: "💡 New contribution idea"
+description: "Got something interesting to add to the collective?"
+title: "[IDEA] "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an algorithm, data structure, problem solution, or resource in mind?
+
+        We'd love to hear about it!
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: What are you suggesting?
+      options:
+        - Algorithm
+        - Data structure
+        - Problem solution
+        - Code template
+        - Learning resource
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: Name or topic
+      placeholder: "e.g. Merge Sort"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Tell us about it
+      description: What is it, and why would it be useful?
+      placeholder: "I think we should explore..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Helpful links (optional)
+      description: Tutorials, editorials, problem links, or other references.
+      placeholder: "https://..."
+    validations:
+      required: false

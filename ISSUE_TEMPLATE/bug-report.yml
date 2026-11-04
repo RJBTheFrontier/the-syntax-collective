@@ -1,0 +1,64 @@
+
+name: "🐛 Something isn't working"
+description: "Found an error or something that needs fixing?"
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep our shared workspace clean!
+
+        Describe what went wrong so we can investigate.
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Where did you find the problem?
+      options:
+        - Algorithm implementation
+        - Data structure implementation
+        - Problem solution
+        - Code template
+        - Documentation
+        - Broken link
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: File or directory
+      description: Where can we find the issue?
+      placeholder: "e.g. library/algorithms/binary-search/"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's going wrong?
+      description: Explain the issue as clearly as you can.
+      placeholder: "I noticed that..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce (optional)
+      description: Include input, expected output, and actual output if relevant.
+      placeholder: |
+        1. Run the implementation with...
+        2. Observe...
+    validations:
+      required: false
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Possible fix (optional)
+      placeholder: "Maybe we could..."
+    validations:
+      required: false
