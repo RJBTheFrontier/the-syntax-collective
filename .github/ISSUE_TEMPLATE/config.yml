@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contribution guidelines
+    url: https://github.com/RJBTheFrontier/the-syntax-collective/blob/main/CONTRIBUTING.md
+    about: Read how we work together before contributing.
