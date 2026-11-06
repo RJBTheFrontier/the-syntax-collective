@@ -16,7 +16,7 @@ the team! 🖥️
 | Codeforces Handle | AtCoder Handle | Contact | Name |
 | ----------------- | -------------- | ------- | ---- |
 | atomicLogic | atomicLogic | rjbalala.thefrontier@gmail.com | Ram Jhydell Balala |
-| roshaun | N/A | roshaunangelia4@gmail.com | Roshaun Matteo Angelia |
+| roshaun | N/A | roshaunangelia@gmail.com | Roshaun Matteo Angelia |
 | Hi_imkinneTHE2ND | N/A | kikinmesias4@gmail.com | Yeshaya Kinne Mesias |
 
 ## <code>00</code> — welcome to the workspace! 👋
