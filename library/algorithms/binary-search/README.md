@@ -78,3 +78,4 @@ Infinite Loops (Pointer Updates)
 If your boundaries do not shrink properly, the algorithm can get stuck looking at the same two elements forever.
 • Buggy: low = mid; or high = mid; (when using while (low < high))
 • Safe: low = mid + 1; or high = mid - 1; (depending on your loop condition)
+
